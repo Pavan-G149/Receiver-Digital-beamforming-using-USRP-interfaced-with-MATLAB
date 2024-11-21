@@ -5,7 +5,7 @@ Please add the following items:
 
 [Program link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub)
 
-[Project description link]<https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/e86687edb8cdb038e7cf15bc09f95bea313c82c1/projects/Build%20a%20wireless%20communications%20link%20with%20software%20defined%20radio>
+[Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/e86687edb8cdb038e7cf15bc09f95bea313c82c1/projects/Build%20a%20wireless%20communications%20link%20with%20software%20defined%20radio)
 
 
 # Project details
