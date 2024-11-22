@@ -12,14 +12,17 @@ This project was chosen to delve into the practical implementation of MIMO techn
 
 # Project details
 A description of the implementation and the approached adopted.
-[Example Image](MIMO.png)
+[Block Diagram](MIMO.png)
 
 # How to run section
-Required Toolboxes:
+**Required Toolboxes:**
 1) communication toolbox
 2) DSP toolbox
 3) Signal Processing Toolbox
 4) Communications Toolbox Support Package for USRP Radio
+
+**Initial Setup**
+1) Connect the USRP's in [MIMO configuration](MIMO.png)  as shown in picture.
 
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
