@@ -59,27 +59,27 @@ Here you can find the detail explanation of this project and simulation --> [Rec
 ](https://drive.google.com/file/d/1MBm7_SqjuEqHJ_ImjQLpN-ywFEBipmkL/view)
 # Simulation results
 **1) Phase shift θ= 0 degree**
-- USRP1 Received power=
-- USRP2 Received power=
-- Combined Power=
+- USRP1 Received power= 93.37 dBm
+- USRP2 Received power= 94.13 dBm
+- Combined Power= 99.29 dBm
 
 ![Phase shift 0](phase0.png "Phase shift θ= 0 degree")
 **2) Phase shift θ= 10 degree**
-- USRP1 Received power=
-- USRP2 Received power=
-- Combined Power=
+- USRP1 Received power= 91.66 dBm
+- USRP2 Received power= 90.67 dBm
+- Combined Power= 92.95 dBm
 
 ![Phase shift 10](phase10.png "Phase shift θ= 10 degree")
 **3) Phase shift θ= 15 degree**
-- USRP1 Received power=
-- USRP2 Received power=
-- Combined Power=
+- USRP1 Received power= 78.26 dBm
+- USRP2 Received power= 80.88 dBm
+- Combined Power= 85.16 dBm
 
 ![Phase shift 15](phase15.png "Phase shift θ= 15 degree")
 **4) Phase shift θ= 20 degree**
-- USRP1 Received power=
-- USRP2 Received power=
-- Combined Power=
+- USRP1 Received power= 71.88 dBm
+- USRP2 Received power= 79.89 dBm
+- Combined Power= 82.45 dBm
 
 ![Phase shift 20](phase20.png "Phase shift θ= 20 degree")
 # Reference
