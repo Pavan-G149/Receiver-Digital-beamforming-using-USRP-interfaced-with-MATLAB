@@ -12,6 +12,7 @@ This project was chosen to delve into the practical implementation of MIMO techn
 
 # Project details
 A description of the implementation and the approached adopted.
+[Example Image](MIMO.png)
 
 # How to run section
 Required Toolboxes:
