@@ -12,10 +12,7 @@ This project was chosen to delve into the practical implementation of MIMO techn
 
 # Project details
 A description of the implementation and the approached adopted.
-[Block Diagram](MIMO.png)
-git add .
-git commit -m "Added image to README"
-git push
+![Block Diagram](MIMO.png)
 
 # How to run section
 **Required Toolboxes:**
