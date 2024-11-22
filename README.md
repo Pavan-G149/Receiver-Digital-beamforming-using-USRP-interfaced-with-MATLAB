@@ -12,7 +12,7 @@ This project was chosen to delve into the practical implementation of MIMO techn
 
 # Project details
 A description of the implementation and the approached adopted.
-![Block Diagram](MIMO.png)
+![Block Diagram](MIMO.png "Block Diagram of MIMO configuration")
 
 # How to run section
 **Required Toolboxes:**
