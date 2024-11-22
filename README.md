@@ -26,6 +26,9 @@ A description of the implementation and the approached adopted.
 2) Configure the USRP's in Matlab
     Matlab --> Add-Ons --> Manage Add-Ons --> Communications Toolbox Support Package for USRP Radio click setup (click the settings it will show Setup) --> select Select Ethernet based radio ( we are using N210 USRP) --> select the check box to manually configure the computer network interface --> if status is avaliable click next --> Test the radio connection ( connected USRP IP Addresses will be shown) then finish the setup.
 
+**Simulink Model**
+
+
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
