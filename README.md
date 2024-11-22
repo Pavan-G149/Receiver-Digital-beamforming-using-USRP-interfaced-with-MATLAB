@@ -14,7 +14,11 @@ This project was chosen to delve into the practical implementation of MIMO techn
 A description of the implementation and the approached adopted.
 
 # How to run section
-Please explain step by step how to run the code/model and include information about what toolboxes and other resources needed to run it.
+Required Toolboxes:
+1) communication toolbox
+2) DSP toolbox
+3) Signal Processing Toolbox
+4) Communications Toolbox Support Package for USRP Radio
 
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
