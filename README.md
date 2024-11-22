@@ -40,6 +40,20 @@ A description of the implementation and the approached adopted.
 
 **SDRu Receiver block parameters**
 ![SDRu Receiver Block](SDRu_Receiver_Block.png "SDRu Receiver block parameters")
+
+Platform: N200/N210/USRP2 ( we are using N21o USRP)
+IP Address: Select the IP address of the USRP
+Channel mapping: We are using USRP for receiving the signal only, so choose 1.
+Center Frequency: Give the transmitting signal frequency. We are transmitting 2.3 GHz signal with amplitude of 15dBm.
+LO offset: Use the deafult value 0.
+Gain: Addjust the gain of the received signal by comparing the both received signal strengths at 0 degree phase shift.
+PPS Source: We are using Octo clock for PPS generation, so select External.
+Clock Source: We are using Octo clock for 10 MHz clock Generation, so select External.
+Decimation factor: Choose the values 4 to 512 which are multiples of 4. This factor crucial for sampling frequency addjust it for based on requirements.
+Transport data type: Use Default int16.
+Output data type: Same as the Transport data type.
+Sample per frame: Depends on host computer running capabalities, for this project we used 1 sample per frame.
+Give the Simulation time and run the simulink model, we gave 1 sec simulation time.
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
