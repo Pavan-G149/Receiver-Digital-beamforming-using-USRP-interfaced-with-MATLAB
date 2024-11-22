@@ -56,6 +56,7 @@ A description of the implementation and the approached adopted.
 - Give the Simulation time and run the simulink model, we gave 1 sec simulation time.
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
+# Simulation results
 **1) Phase shift θ= 0 degree**
 ![Phase shift 0](phase0.png "Phase shift θ= 0 degree")
 **2) Phase shift θ= 10 degree**
