@@ -38,6 +38,9 @@ A description of the implementation and the approached adopted.
 6) Add block ( To add the received signals one is phase shifted signal)
 7) Scope ( to check the received signal and Added signal after phase delay)
 8) Spectrum Analyser ( to check the power of the signal)
+
+**SDRu Receiver block parameters**
+![SDRu Receiver Block](SDRu_Receiver_Block.png "SDRu Receiver block parameters")
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
