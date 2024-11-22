@@ -1,4 +1,4 @@
-# Solution to MATLAB and Simulink Challenge project <'project number'> <Receiver Digital beamforming  using USRP interfaced with Matlab>
+# Solution to MATLAB and Simulink Challenge project <162> <Receiver Digital beamforming  using USRP interfaced with Matlab>
 This is a template repo for MATLAB and Simulink Challenge Project solutions.
 
 Please add the following items:
