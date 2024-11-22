@@ -55,7 +55,7 @@ A description of the implementation and the approached adopted.
 - Sample per frame: Depends on host computer running capabalities, for this project we used 1 sample per frame.
 - Give the Simulation time and run the simulink model, we gave 1 sec simulation time.
 # Demo
-Here you can find the detail explanation of this project and simulation --> ![Receiver-Digital-beamforming-using-USRP-interfaced-with-MATLAB
+Here you can find the detail explanation of this project and simulation --> [Receiver-Digital-beamforming-using-USRP-interfaced-with-MATLAB
 ](https://drive.google.com/file/d/1MBm7_SqjuEqHJ_ImjQLpN-ywFEBipmkL/view)
 # Simulation results
 **1) Phase shift θ= 0 degree**
