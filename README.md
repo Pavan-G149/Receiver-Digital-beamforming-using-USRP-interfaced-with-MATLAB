@@ -58,6 +58,9 @@ A description of the implementation and the approached adopted.
 Add a video or animated gif/picture to showcase the code in operation.
 # Simulation results
 **1) Phase shift θ= 0 degree**
+- USRP1 Received power=
+- USRP2 Received power=
+- Combined Power=
 ![Phase shift 0](phase0.png "Phase shift θ= 0 degree")
 **2) Phase shift θ= 10 degree**
 ![Phase shift 10](phase10.png "Phase shift θ= 10 degree")
