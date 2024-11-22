@@ -32,7 +32,7 @@ A description of the implementation and the approached adopted.
 **Blocks used:**
 1) SDRu Receiver  <-- Communications Toolbox Support Package for USRP Radio
 2) Data type Conversion
-3) Constant block ( to give the phase of (U+03C0)*sin(theta)
+3) Constant block ( to give the phase of U+03C0 *sin(theta)
 4) Trigonometric block ( use cos + jsin )
 5) Product block
 6) Add block
