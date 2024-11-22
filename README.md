@@ -61,12 +61,25 @@ Add a video or animated gif/picture to showcase the code in operation.
 - USRP1 Received power=
 - USRP2 Received power=
 - Combined Power=
+
 ![Phase shift 0](phase0.png "Phase shift θ= 0 degree")
 **2) Phase shift θ= 10 degree**
+- USRP1 Received power=
+- USRP2 Received power=
+- Combined Power=
+
 ![Phase shift 10](phase10.png "Phase shift θ= 10 degree")
 **3) Phase shift θ= 15 degree**
+- USRP1 Received power=
+- USRP2 Received power=
+- Combined Power=
+
 ![Phase shift 15](phase15.png "Phase shift θ= 15 degree")
 **4) Phase shift θ= 20 degree**
+- USRP1 Received power=
+- USRP2 Received power=
+- Combined Power=
+
 ![Phase shift 20](phase20.png "Phase shift θ= 20 degree")
 # Reference
 Add reference papers, data, or supporting material that has been used, if any.
