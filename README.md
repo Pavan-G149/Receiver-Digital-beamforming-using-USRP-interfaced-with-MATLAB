@@ -29,6 +29,14 @@ A description of the implementation and the approached adopted.
 **Simulink Model**
 ![Simulink Model](Simulink_Model_Block_diagram.png "Simulink Model Block diagram")
 
+**Blocks used:**
+1) SDRu Receiver  <-- Communications Toolbox Support Package for USRP Radio
+2) Data type Conversion
+3) Constant block ( to give the phase of (U+03C0)*sin(theta)
+4) Trigonometric block ( use cos + jsin )
+5) Product block
+6) Add block
+7) Scope ( to check the received signal and Added signal after phase delay)
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
