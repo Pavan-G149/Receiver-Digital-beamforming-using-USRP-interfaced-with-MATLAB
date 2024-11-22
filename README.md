@@ -31,12 +31,13 @@ A description of the implementation and the approached adopted.
 
 **Blocks used:**
 1) SDRu Receiver  <-- Communications Toolbox Support Package for USRP Radio
-2) Data type Conversion
-3) Constant block ( to give the phase of U+03C0 *sin(theta)
-4) Trigonometric block ( use cos + jsin )
-5) Product block
-6) Add block
+2) Data type Conversion ( 16 bit data is recived from receiverblock we need to convert the data type to process in simulink )
+3) Constant block ( to give the phase of π*sin(θ*180/π) to one of the received signal)
+4) Trigonometric block ( use cos + jsin ) 
+5) Product block ( to introduce the phase shift to received signal)
+6) Add block ( To add the received signals one is phase shifted signal)
 7) Scope ( to check the received signal and Added signal after phase delay)
+8) Spectrum Analyser ( to check the power of the signal)
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
