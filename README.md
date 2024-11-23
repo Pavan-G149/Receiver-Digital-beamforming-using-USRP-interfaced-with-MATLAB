@@ -11,11 +11,13 @@ This is a template repo for MATLAB and Simulink Challenge Project solutions.
 This project was chosen to delve into the practical implementation of MIMO technology, a fundamental aspect of modern wireless communication. By using USRPs and Simulink, it provided hands-on experience with state-of-the-art tools and hardware synchronization techniques. The focus on signal reception with varying transmitter positions allowed us to analyze spatial characteristics and optimize receiver performance. This work bridges the gap between theoretical understanding and real-world applications of advanced communication systems. Additionally, it aligns with emerging research trends in improving network reliability and efficiency in diverse scenarios.
 
 # Project details
-A description of the implementation and the approached adopted.
+
 ![Block Diagram](MIMO.png "Block Diagram of MIMO configuration")
-**Signal Transmission**
+**Signal Transmission and Reception**
 
 The transmitter setup consists of a signal generator producing a sine wave at 2.3 GHz with a power level of 15 dBm. This signal is fed into a log-periodic antenna, which is a directional, ultra-wideband antenna capable of operating over a frequency range of 800 MHz to 6.5 GHz. To ensure optimal signal reception, both the transmitter antenna and the receiver array, which also employ directional antennas, must be carefully aligned. Proper alignment is crucial to maximize the received power and minimize signal loss, taking full advantage of the antennas' directional characteristics for efficient communication.
+
+The receiver side of this MIMO (Multiple Input, Multiple Output) system utilizes two USRP N210 devices synchronized with an OctoClock to achieve precise timing and frequency alignment. This setup captures incoming electromagnetic waves at the antennas of the two receivers, processes the signal to compensate for path delay differences, and enhances the signal-to-noise ratio (SNR) of the received signals. The signal processing is performed in MATLAB/Simulink, leveraging blocks such as trigonometric and constant blocks for phase correction and SNR optimization. This system provides an efficient testbed for studying MIMO communication in real-world scenarios.
 
 **Components and Their Roles**
 
