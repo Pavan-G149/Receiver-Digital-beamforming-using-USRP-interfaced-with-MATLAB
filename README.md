@@ -12,6 +12,30 @@ This project was chosen to delve into the practical implementation of MIMO techn
 # Project details
 A description of the implementation and the approached adopted.
 ![Block Diagram](MIMO.png "Block Diagram of MIMO configuration")
+**Reciever**
+he receiver side of this MIMO (Multiple Input, Multiple Output) system utilizes two USRP N210 devices synchronized with an OctoClock to achieve precise timing and frequency alignment. This setup captures incoming electromagnetic waves at the antennas of the two receivers, processes the signal to compensate for path delay differences, and enhances the signal-to-noise ratio (SNR) of the received signals. The signal processing is performed in Simulink, leveraging blocks such as trigonometric and constant blocks for phase correction and SNR optimization. This system provides an efficient testbed for studying MIMO communication in real-world scenarios.
+**Components**
+1. OctoClock
+The OctoClock is a clock distribution module that provides:
+
+10 MHz Clock Reference: Ensures that the oscillators of both USRP N210 devices operate in perfect frequency alignment. This synchronization is critical for coherent signal processing in MIMO.
+Pulse-Per-Second (PPS) Signal: Delivers precise time synchronization to the USRPs, aligning their sampling instants to the same time base. This is essential for applications requiring temporal coherence, such as MIMO beamforming.
+2. USRP N210
+The USRP N210 devices function as the hardware receivers in the system. Key roles include:
+
+Signal Reception: Each USRP receives an electromagnetic wave at its respective antenna. Due to the spatial separation between the antennas, the incoming wave reaches each antenna with a time delay caused by the difference in path lengths.
+Digitization: The received analog signals are converted into digital samples for further processing.
+3. Ethernet Switch
+The Ethernet switch establishes a high-speed communication link between the USRPs and the Host PC. It handles packetized data transfer, ensuring minimal latency and reliable data flow.
+
+4. Host PC
+The Host PC performs the critical signal processing tasks:
+Delay Compensation: The time delay caused by the path difference is compensated in MATLAB/Simulink. The delay introduces a phase shift in the received signals, which is corrected by multiplying the signals with a calculated phase term.
+Signal Combination: Once the phase shifts are corrected, the signals from both antennas are added coherently. This constructive combination improves the SNR of the received signal, leveraging the spatial diversity provided by the MIMO setup.
+
+
+
+
 
 # How to run section
 **Required Toolboxes:**
