@@ -84,5 +84,6 @@ Here you can find the detail explanation of this project and simulation --> [Rec
 ![Phase shift 20](phase20.png "Phase shift θ= 20 degree")
 
 # Conclusion
+The project successfully demonstrated the practical implementation of MIMO configuration for enhanced signal reception using a synchronized USRP-based receiver setup. The use of two antennas placed at a λ/2 distance, combined with external clock synchronization via an Octo Clock, ensured accurate signal acquisition and phase alignment. By introducing phase delay to account for path differences and combining the signals, an improvement in SNR was observed, validating the effectiveness of the approach. The analysis of received power variations with changing transmitter positions provided valuable insights into spatial signal dynamics. This work highlights the potential of MIMO systems for advanced communication networks.
 # Reference
 Add reference papers, data, or supporting material that has been used, if any.
