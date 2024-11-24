@@ -55,11 +55,16 @@ o	Δd is the path difference (distance difference between antennas and the incom
 o	c is the speed of light.
 2.	Phase Difference (Δϕ): Using the relation between time delay and phase for a sinusoidal signal:
 Δϕ=2πfcΔt
+
 where:
+
 o	fc is the carrier frequency of the signal.
 o	Δt is the time delay (calculated above).
+
 Substituting Δt:
+
 Δϕ=2πfcΔd\c
+
 Here Δd=dsin(θ)where θ is the angle as shown in the image 
 
 ![Path delay](Pathdelay.png)
