@@ -51,7 +51,9 @@ The phase difference Δϕ\Delta\phiΔϕ is computed based on the delay caused by
 1.	Path Delay (Δt): The time delay between the two antennas is proportional to the spatial path difference:
 Δt=Δd\c
 where:
+
 o	Δd is the path difference (distance difference between antennas and the incoming wavefront),
+
 o	c is the speed of light.
 2.	Phase Difference (Δϕ): Using the relation between time delay and phase for a sinusoidal signal:
 Δϕ=2πfcΔt
@@ -59,6 +61,7 @@ o	c is the speed of light.
 where:
 
 o	fc is the carrier frequency of the signal.
+
 o	Δt is the time delay (calculated above).
 
 Substituting Δt:
