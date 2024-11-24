@@ -44,6 +44,23 @@ The Host PC performs the critical signal processing tasks:
 - Signal Combination: Once the phase shifts are corrected, the signals from both antennas are added coherently. This constructive combination improves the SNR of the received signal, leveraging the spatial diversity provided by the MIMO setup.
 - Simulink Implementation: The phase correction and signal combination are implemented using Simulink blocks:
 
+**5. Phase Difference Calculation**
+The phase difference Δϕ\Delta\phiΔϕ is computed based on the delay caused by the path difference. Here's the step-by-step process:
+1.	Path Delay (Δt\Delta tΔt): The time delay between the two antennas is proportional to the spatial path difference:
+Δt=Δd\c
+where:
+o	Δd is the path difference (distance difference between antennas and the incoming wavefront),
+o	c is the speed of light.
+2.	Phase Difference (Δϕ): Using the relation between time delay and phase for a sinusoidal signal:
+Δϕ=2πfcΔt
+where:
+o	fc is the carrier frequency of the signal,
+o	Δt is the time delay (calculated above).
+Substituting Δt:
+Δϕ=2πfcΔd\c
+Here Δd=dsin(θ)where θ is the angle as shown in the image 
+
+
 # How to run section
 **Required Toolboxes:**
 1) communication toolbox
