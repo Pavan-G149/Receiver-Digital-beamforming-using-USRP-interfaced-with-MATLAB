@@ -45,7 +45,9 @@ The Host PC performs the critical signal processing tasks:
 - Simulink Implementation: The phase correction and signal combination are implemented using Simulink blocks:
 
 **5. Phase Difference Calculation**
+
 The phase difference Δϕ\Delta\phiΔϕ is computed based on the delay caused by the path difference. Here's the step-by-step process:
+
 1.	Path Delay (Δt\Delta tΔt): The time delay between the two antennas is proportional to the spatial path difference:
 Δt=Δd\c
 where:
