@@ -75,11 +75,11 @@ Here Δd=dsin(θ)where θ is the angle as shown in the image
 2) Configure the USRP's in Matlab
     Matlab --> Add-Ons --> Manage Add-Ons --> Communications Toolbox Support Package for USRP Radio click setup (click the settings it will show Setup) --> select Select Ethernet based radio ( we are using N210 USRP) --> select the check box to manually configure the computer network interface --> if status is avaliable click next --> Test the radio connection ( connected USRP IP Addresses will be shown) then finish the setup.
 
-![Path delay](Simulink_Model_Block_diagram.png "Simulink Model Block diagram")
+
 
 **Simulink Model**
 
-![Simulink Model](Pathdelay.png "Path delay")
+![Simulink Model](Simulink_Model_Block_diagram.png "Simulink Model Block diagram")
 
 **Blocks used:**
 1) SDRu Receiver  <-- Communications Toolbox Support Package for USRP Radio
