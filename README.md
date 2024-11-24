@@ -55,6 +55,7 @@ where:
 o	Δd is the path difference (distance difference between antennas and the incoming wavefront),
 
 o	c is the speed of light.
+
 2.	Phase Difference (Δϕ): Using the relation between time delay and phase for a sinusoidal signal:
 Δϕ=2πfcΔt
 
