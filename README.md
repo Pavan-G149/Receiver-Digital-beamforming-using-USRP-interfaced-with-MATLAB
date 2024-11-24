@@ -114,6 +114,8 @@ Here you can find the detail explanation of this project and simulation --> [Rec
 
 ![Phase shift 20](phase20.png "Phase shift θ= 20 degree")
 
+The simulation results demonstrate that beamforming effectively enhanced the Signal-to-Noise Ratio (SNR) by coherently combining phase-aligned signals from two antennas, confirming the practical viability of this method. Properly adjusting the phase shift between signals from different antennas proved essential for maximizing received power. Additionally, varying the transmitter's position from 0° to 20° relative to the receiver array showed a reduction in received signal strength, emphasizing the critical role of precise antenna alignment and beamforming in achieving optimal signal reception.
+
 # Conclusion
 The project successfully demonstrated the practical implementation of MIMO configuration for enhanced signal reception using a synchronized USRP-based receiver setup. The use of two antennas placed at a λ/2 distance, combined with external clock synchronization via an Octo Clock, ensured accurate signal acquisition and phase alignment. By introducing phase delay to account for path differences and combining the signals, an improvement in SNR was observed, validating the effectiveness of the approach. The analysis of received power variations with changing transmitter positions provided valuable insights into spatial signal dynamics. This work highlights the potential of MIMO systems for advanced communication networks.
 # Reference
