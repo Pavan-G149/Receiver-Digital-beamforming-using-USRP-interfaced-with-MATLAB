@@ -62,6 +62,7 @@ Substituting Δt:
 Δϕ=2πfcΔd\c
 Here Δd=dsin(θ)where θ is the angle as shown in the image 
 
+![Path delay](Pathdelay.png)
 
 # How to run section
 **Required Toolboxes:**
