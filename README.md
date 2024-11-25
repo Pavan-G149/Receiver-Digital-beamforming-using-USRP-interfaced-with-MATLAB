@@ -126,8 +126,8 @@ Here Δd=dsin(θ)where θ is the angle as shown in the image
 - Output data type: Same as the Transport data type.
 - Sample per frame: Depends on host computer running capabalities, for this project we used 1 sample per frame.
 - Give the Simulation time and run the simulink model, we gave 1 sec simulation time.
-# Demo
-Here you can find the detail explanation of this project and simulation --> [Receiver-Digital-beamforming-using-USRP-interfaced-with-MATLAB
+# Video Demo
+Here you can find the detail explanation of this project and simulation --> [Receiver-Digital-beamforming-using-USRP-interfaced-with-MATLAB Video
 ](https://drive.google.com/file/d/1MBm7_SqjuEqHJ_ImjQLpN-ywFEBipmkL/view)
 # Simulation results
 **1) Phase shift θ= 0 degree**
