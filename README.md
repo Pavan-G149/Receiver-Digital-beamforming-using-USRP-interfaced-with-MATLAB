@@ -68,7 +68,7 @@ o	Δt is the time delay (calculated above).
 
 Substituting Δt:
 
-Δϕ=2πfcΔd\c
+Δϕ=2πfcΔd/c
 
 Here Δd=dsin(θ)where θ is the angle as shown in the image 
 
