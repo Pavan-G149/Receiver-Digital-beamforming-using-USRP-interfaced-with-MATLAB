@@ -101,7 +101,7 @@ Here Δd=dsin(θ)where θ is the angle as shown in the image
 5) Product block ( to introduce the phase shift to received signal)
 6) Add block ( To add the received signals one is phase shifted signal)
 7) Scope ( to check the received signal and Added signal after phase delay)
-8) Spectrum Analyser ( to check the power of the signal)
+8) Spectrum Analyzer ( to check the power of the signal)
 
 **SDRu Receiver block parameters**
 ![SDRu Receiver Block](SDRu_Receiver_Block.png "SDRu Receiver block parameters")
