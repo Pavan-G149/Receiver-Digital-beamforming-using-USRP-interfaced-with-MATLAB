@@ -77,7 +77,7 @@ Here Δd=dsin(θ)where θ is the angle as shown in the image
 # How to run section
 **Required Toolboxes:**
 1) communication toolbox
-2) DSP toolbox
+2) DSP system toolbox
 3) Signal Processing Toolbox
 4) Communications Toolbox Support Package for USRP Radio
 
